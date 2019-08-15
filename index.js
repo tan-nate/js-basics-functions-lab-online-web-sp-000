@@ -6,3 +6,7 @@ function distanceFromHqInBlocks(originBlock) {
 function distanceFromHqInFeet(originBlock) {
   return distanceFromHqInBlocks(originBlock) * 264;
 }
+
+function distanceTravelledInFeet(startingBlock, endingBlock) {
+  return (endingBlock - startingBlock) * 264;
+}
