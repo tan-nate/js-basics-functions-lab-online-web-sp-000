@@ -8,5 +8,5 @@ function distanceFromHqInFeet(originBlock) {
 }
 
 function distanceTravelledInFeet(startingBlock, endingBlock) {
-  return (endingBlock - startingBlock) * 264;
+  return Math.abs((endingBlock - startingBlock) * 264);
 }
